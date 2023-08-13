@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="consumer.ConsumerTest" time="0.047" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\bin"/>
+    <property name="java.vm.version" value="25.372-b07"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\SourceCode\gitHub\dubbo"/>
+    <property name="java.vendor.url" value="https://access.redhat.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\SourceCode\gitHub\dubbo"/>
+    <property name="java.runtime.version" value="1.8.0_372-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Wenllar\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="G:\liaomengping\F_Disk\maven\apache-maven-3.6.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Bandizip\;H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\\bin;C:\Program Files\nodejs\;G:\liaomengping\F_Disk\maven\apache-maven-3.6.1\bin;G:\liaomengping\F_Disk\gradle\gradle-5.3\bin;C:\Program Files\Git\cmd;C:\Users\Wenllar\AppData\Local\Microsoft\WindowsApps;C:\Users\Wenllar\AppData\Roaming\npm;C:\Users\Wenllar\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="G:\liaomengping\F_Disk\maven\apache-maven-3.6.1/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="F:\maven\mavenLocalDB"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Wenllar"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Wenllar"/>
+    <property name="java.class.path" value="G:\liaomengping\F_Disk\maven\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\lib\idea_rt.jar"/>
+    <property name="idea.version2019.2.3" value="true"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.2.3 -s G:\liaomengping\F_Disk\maven\apache-maven-3.6.1\conf\settings.xml -Dmaven.repo.local=F:\maven\mavenLocalDB install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_372"/>
+    <property name="java.ext.dirs" value="H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\resources.jar;H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\rt.jar;H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\sunrsasign.jar;H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\jsse.jar;H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\jce.jar;H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\charsets.jar;H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\lib\jfr.jar;H:\java-1.8.0-openjdk-1.8.0.372-1.b07.redhat.windows.x86_64\jre\classes"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="G:\liaomengping\F_Disk\maven\apache-maven-3.6.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="consumer.ConsumerTest" name="testCallHelloServiceWithRandomProvider" time="0.047"/>
+  <testcase classname="consumer.ConsumerTest" name="testCallHelloServiceWithAssignedProvider" time="0"/>
+</testsuite>
